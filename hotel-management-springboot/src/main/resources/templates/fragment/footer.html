@@ -1,0 +1,86 @@
+<!--<!DOCTYPE html>-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--<head>-->
+<!--    <title>Fragment: Footer</title>-->
+
+<!--</head>-->
+<!--<body>-->
+<!--&lt;!&ndash;<footer class="footer mt-auto py-3 bg-light" th:fragment="footer">&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="container">&ndash;&gt;-->
+<!--&lt;!&ndash;        <span class="text-muted">© 2026 Afzalll NextGen. All rights reserved.</span>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;</footer>&ndash;&gt;-->
+
+<!--<footer class="footer" th:fragment="footer">-->
+<!--    <div class="footer-container">-->
+<!--        <div class="footer-section">-->
+<!--            <h3>StaySphere</h3>-->
+<!--            <p>Your Perfect Stay, Your Perfect Journey.</p>-->
+<!--        </div>-->
+
+<!--        <div class="footer-section">-->
+<!--            <h4>Contact Us</h4>-->
+<!--            <p>Email: company@email.com</p>-->
+<!--            <p>Phone: +91 7520331217</p>-->
+<!--            <p>Address: Samastipur, Mumbai, India</p>-->
+<!--        </div>-->
+
+<!--        <div class="footer-section">-->
+<!--            <h4>Follow Us</h4>-->
+<!--            <p>LinkedIn | GitHub | Instagram</p>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="footer-bottom">-->
+<!--        <p>© 2026 Afzalll NextGen. All Rights Reserved.</p>-->
+<!--    </div>-->
+<!--</footer>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<footer class="mt-auto text-white"
+        style="background-color: black; padding: 40px 0;"
+        th:fragment="footer">
+
+    <div class="container">
+        <div class="row text-center text-md-start">
+
+            <!-- Company Info -->
+            <div class="col-md-4 mb-4">
+                <h4 class="fw-bold" style="color: blue;">
+                    StaySphere
+                </h4>
+                <p>Your Perfect Stay, Your Perfect Journey.</p>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-4 mb-4">
+                <h5 class="fw-bold">Contact Us</h5>
+                <p><i class="bi bi-envelope-fill me-2" style="color:#0A66C2;"></i> StaySphere@email.com</p>
+                <p><i class="bi bi-telephone-fill me-2 text-primary"></i> +91 7520331217</p>
+
+                <p><i class="bi bi-geo-alt-fill me-2 text-primary"></i> Samastipur, Mumbai, India</p>
+            </div>
+
+            <!-- Social -->
+            <div class="col-md-4 mb-4">
+                <h5 class="fw-bold">Follow Us</h5>
+                <a href="https://www.linkedin.com/in/md-afzal06?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="me-3">
+                    <i class="bi bi-linkedin" style="color:#0A66C2;"></i>
+                </a>
+                <a href="https://github.com/iamafzal-06" class="text-white me-3"><i class="bi bi-github"></i></a>
+                <a href="https://www.instagram.com/i_am_afzal_06?igsh=MW14eHpxemZqMzM5NQ==" class="me-3">
+                    <i class="bi bi-instagram" style="color:#E1306C;"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <hr class="border-light">
+
+        <div class="text-center">
+            <p class="mb-0">© 2026 Afzalll NextGen. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
