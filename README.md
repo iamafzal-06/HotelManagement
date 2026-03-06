@@ -126,7 +126,7 @@ Before running the project, make sure you have installed:
 Md Afzal
 Java Developer 
 
-
+```
 HotelBookingApp
 │
 ├── src
@@ -183,3 +183,5 @@ HotelBookingApp
 │
 ├── pom.xml
 └── README.md
+
+```
