@@ -125,3 +125,61 @@ Before running the project, make sure you have installed:
 
 Md Afzal
 Java Developer 
+
+
+HotelBookingApp
+│
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── afzalll
+│       │           └── hotelbookingapp
+│       │               ├── config
+│       │               │   └── SecurityConfig.java
+│       │               │
+│       │               ├── controller
+│       │               │   ├── AuthController.java
+│       │               │   ├── HotelController.java
+│       │               │   ├── BookingController.java
+│       │               │   └── AdminController.java
+│       │               │
+│       │               ├── service
+│       │               │   ├── UserService.java
+│       │               │   ├── HotelService.java
+│       │               │   ├── BookingService.java
+│       │               │   └── impl
+│       │               │       ├── UserServiceImpl.java
+│       │               │       ├── HotelServiceImpl.java
+│       │               │       └── BookingServiceImpl.java
+│       │               │
+│       │               ├── repository
+│       │               │   ├── UserRepository.java
+│       │               │   ├── HotelRepository.java
+│       │               │   └── BookingRepository.java
+│       │               │
+│       │               ├── model
+│       │               │   ├── User.java
+│       │               │   ├── Hotel.java
+│       │               │   ├── Room.java
+│       │               │   └── Booking.java
+│       │               │
+│       │               └── HotelBookingAppApplication.java
+│       │
+│       └── resources
+│           ├── static
+│           │   ├── css
+│           │   ├── js
+│           │   └── images
+│           │
+│           ├── templates
+│           │   ├── auth
+│           │   ├── hotels
+│           │   ├── bookings
+│           │   ├── admin
+│           │   └── fragments
+│           │
+│           └── application.properties
+│
+├── pom.xml
+└── README.md
